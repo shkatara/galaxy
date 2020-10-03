@@ -1,0 +1,8 @@
+---
+
+- name: testing
+  hosts: all
+  tasks:
+  - name: print
+    debug:
+      msg: hello 
